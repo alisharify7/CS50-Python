@@ -1,2 +1,2 @@
 # cs-python
-solve all cs Course for python question and problen sets
+solve all cs Course question and problen sets of python
