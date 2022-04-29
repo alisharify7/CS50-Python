@@ -6,15 +6,17 @@ def main():
 
 
 def dollars_to_float(d):
+    # replace $ with white space
     temp = d.replace("$","")
     temp = float(temp)
     return temp
 
 
 def percent_to_float(p):
+    # in here we replace % with white space
     temp = p.replace("%","")
-    temp = (int(temp) / 100)
-    return temp
+    # in here we divid temp to 100 to get us a decimal number like 15 ==> 0.15
+    return (int(temp) / 100)
 
 
 main()
