@@ -40,7 +40,7 @@ main()
 #    temp = p
 #    location = temp.find("%")
 #    temp = temp[:location]
-#   temp = int(temp)
+#    temp = int(temp)
 #    return (temp / 100)
 
 
