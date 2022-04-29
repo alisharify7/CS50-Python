@@ -22,7 +22,7 @@ def percent_to_float(p):
 main()
 
 
-# another way with string sliceing method
+# another way with string slicing method
 #def main():
 #    dollars = dollars_to_float(input("How much was the meal? "))
 #    percent = percent_to_float(input("What percentage would you like to tip? "))
