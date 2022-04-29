@@ -7,15 +7,12 @@ def main():
 
 def dollars_to_float(d):
     temp = d.replace("$","")
-    temp = temp.strip()
     temp = float(temp)
-    temp = int(temp)
     return temp
 
 
 def percent_to_float(p):
     temp = p.replace("%","")
-    temp = temp.strip()
     temp = (int(temp) / 100)
     return temp
 
