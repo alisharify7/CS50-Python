@@ -6,7 +6,7 @@ def main():
         print("Invalid")
 
 
-def num_in_str(a):
+def end_str(a):
     if a == " ":
         return True
     array = a.split()
@@ -21,24 +21,23 @@ def is_valid(s):
     #cheack for length
     if (len(s) > 6 or len(s) < 2):
         return False
-    temp = ''
+    tempo = ''
     # check for find first number and cheack is a 0 or not
-    for let in range(len(s)):
+    for one in range(len(s)):
         # if each var is a number so we found first number in string
-        if (s[let].isnumeric()):
+        if (s[one].isnumeric()):
             # if first number we found is a number
             # return false
-            if s[let] == '0':
+            if s[one] == '0':
                 return False
             # if first number is not 0 so just break
-            temp = s[let:]
+            tempo = s[one:]
             break
     if temp != " ":
-        res = num_in_str(temp)
-        if res != True:
+        resault = end_str(tempo)
+        if resault != True:
             return False
     return True
 
 
-if __name__ == "__main__":
-    main()
+main()
