@@ -1,8 +1,11 @@
 user = input("Input: ").strip()
 
 print("Output: ",end="")
-for letter in user:
-    if (letter.upper() in ['A', 'E', 'I', 'O', 'U']):
+
+for let in user:
+    if (let.upper() in ['A', 'E', 'I', 'O', 'U']):
         continue
-    print(letter,end="")
+    print(let,end="")
+    
+# print new line    
 print("")
