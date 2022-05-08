@@ -2,11 +2,10 @@ amount = 50
 
 while amount > 0:
     print(f"Amount Due: {amount}")
-    user = int(input("Insert Coin: "))
+    in_put = int(input("Insert Coin: "))
 
-    if (user in [5,10,25]):
-        amount -= user
+    if (in_put in [5,10,25]):
+        amount -= in_put
 
-#    print(f"Amount Due: {amount}")
 
 print(f"Chane owed: {abs(amount)}")
