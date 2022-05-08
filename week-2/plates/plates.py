@@ -18,7 +18,9 @@ def end_str(a):
 
 
 def is_valid(s):
-    #cheack for length
+    #check for length and check is first element is number of not
+    if (s[0].isnumeric()):
+        return False
     if (len(s) > 6 or len(s) < 2):
         return False
     tempo = ''
