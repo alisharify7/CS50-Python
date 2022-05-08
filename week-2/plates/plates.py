@@ -19,7 +19,7 @@ def end_str(a):
 
 def is_valid(s):
     #check for length and check is first element is number of not
-    if (s[0].isnumeric()):
+    if (s[0].isnumeric() and s[1].isnumeric()):
         return False
     if (len(s) > 6 or len(s) < 2):
         return False
