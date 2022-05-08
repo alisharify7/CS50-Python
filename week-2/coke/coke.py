@@ -7,5 +7,4 @@ while amount > 0:
     if (in_put in [5,10,25]):
         amount -= in_put
 
-
 print(f"Chane owed: {abs(amount)}")
