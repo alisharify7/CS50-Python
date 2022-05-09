@@ -1,3 +1,14 @@
+############################################
+#                                          #
+#             by : Ali Sharify             #
+#        Dont copy currently Code          #
+#          Github: alisharifyy             #
+#                                          #
+############################################
+
+
+
+
 #defind a doctionary for keep all fruits name and calories
 fruits={
     'apple':'130',
