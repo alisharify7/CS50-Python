@@ -36,11 +36,11 @@ while True:
                 d = int(d)
                 y = int(y)
                 # check if day greater than 31 days
-                if (d > 31):
+                if (d > 31 or d < 1):
                     # pass this round
                     continue
                 # if month input is greater than 12   
-                if m > 12:
+                if m > 12 or m < 1:
                     # pass this round
                     continue
                 # print result and exit from loop
@@ -61,7 +61,7 @@ while True:
             y = int(y)
             d = int(d)
             # if day input is greater than 31   
-            if d > 31:
+            if d > 31 or d < 1:
                 # pass this round
                 continue
             # search for index of month name use type it
