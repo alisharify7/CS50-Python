@@ -1,3 +1,13 @@
+############################################
+#                                          #
+#             by : Ali Sharify             #
+#        Dont copy currently Code          #
+#          Github: alisharifyy             #
+#                                          #
+############################################
+
+
+
 #solve this problem with two way :)
 
 user = input("Expression: ").strip()
