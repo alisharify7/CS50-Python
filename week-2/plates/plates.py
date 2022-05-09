@@ -1,3 +1,12 @@
+############################################
+#                                          #
+#             by : Ali Sharify             #
+#        Dont copy currently Code          #
+#          Github: alisharifyy             #
+#                                          #
+############################################
+
+
 def main():
     plate = input("Plate: ").strip()
     if is_valid(plate):
