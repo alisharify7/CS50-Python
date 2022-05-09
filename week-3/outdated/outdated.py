@@ -43,6 +43,8 @@ while True:
                 if m > 12 or m < 1:
                     # pass this round
                     continue
+                if y < 999:
+                    continue    
                 # print result and exit from loop
                 print(f"{y:04}-{m:02}-{d:02}")
                 break
@@ -64,6 +66,8 @@ while True:
             if d > 31 or d < 1:
                 # pass this round
                 continue
+            if y < 999:
+                continue
             # search for index of month name use type it
             # with this condition first see is month name in list or not !
             if m.title() in dates:
@@ -74,7 +78,7 @@ while True:
                 if (location == d):
                     location+=1
                 # print answer and break loop    
-                print(f"{y:04}-{location:02}-{d:02}")
+                print(f"{y}-{location:02}-{d:02}")
                 break
             else:
                 continue
