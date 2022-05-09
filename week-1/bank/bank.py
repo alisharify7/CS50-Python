@@ -1,3 +1,12 @@
+############################################
+#                                          #
+#             by : Ali Sharify             #
+#        Dont copy currently Code          #
+#          Github: alisharifyy             #
+#                                          #
+############################################
+
+
 # get input from user and strip it and force it to be UPPER case
 user = input("Greeting: ").strip().upper()
 
