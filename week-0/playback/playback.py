@@ -1,3 +1,12 @@
+############################################
+#                                          #
+#             by : Ali Sharify             #
+#        Dont copy currently Code          #
+#          Github: alisharifyy             #
+#                                          #
+############################################
+
+
 import sys
 
 # get input from user and strip all white space
