@@ -1,3 +1,12 @@
+############################################
+#                                          #
+#             by : Ali Sharify             #
+#        Dont copy currently Code          #
+#          Github: alisharifyy             #
+#                                          #
+############################################
+
+
 amount = 50
 
 while amount > 0:
