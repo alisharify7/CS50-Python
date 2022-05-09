@@ -1,3 +1,13 @@
+############################################
+#                                          #
+#             by : Ali Sharify             #
+#        Dont copy currently Code          #
+#          Github: alisharifyy             #
+#                                          #
+############################################
+
+
+
 import sys
 
 # Get input from user and strip it and force it to be lower case
