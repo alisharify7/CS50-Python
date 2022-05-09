@@ -1,3 +1,12 @@
+############################################
+#                                          #
+#             by : Ali Sharify             #
+#        Dont copy currently Code          #
+#          Github: alisharifyy             #
+#                                          #
+############################################
+
+
 import sys
 
 x = input()
