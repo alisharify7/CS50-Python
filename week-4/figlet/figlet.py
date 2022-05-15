@@ -8,8 +8,6 @@
 ############################################
 
 
-
-
 import random as RAN 
 import pyfiglet as fig
 import  sys
@@ -22,7 +20,6 @@ fonts = figlet.getFonts()
 if len(sys.argv) > 3 or len(sys.argv) > 1 and len(sys.argv) < 3:
     print('Invalid usage')
     sys.exit(1)
-
 
 if len(sys.argv) == 3:
     
@@ -44,9 +41,6 @@ if len(sys.argv) == 3:
     user_input = input("Input: ")
     print(figlet.renderText(user_input))
     sys.exit(0)
-
-
-
 
 # if user just run program with out flag and command line argument
 
