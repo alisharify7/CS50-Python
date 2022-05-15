@@ -1,3 +1,15 @@
+
+############################################
+#                                          #
+#             by : Ali Sharify             #
+#        Dont copy currently Code          #
+#          Github: alisharifyy             #
+#                                          #
+############################################
+
+
+
+
 import random as RAN 
 import pyfiglet as fig
 import  sys
