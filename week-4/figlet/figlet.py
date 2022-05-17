@@ -32,7 +32,7 @@ if len(sys.argv) == 3:
     font_flag = sys.argv[1]
     # check for valid flag
     if font_flag not in ['-f','--font']:
-        print('invlaid usage')
+        print('Invalid usage')
         sys.exit(1)
 
     # set font to user input
