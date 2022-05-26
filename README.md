@@ -1,7 +1,6 @@
 # Cs-Python
 ## Solve All cs Course Question and Problen Sets of Python
-
-
+     
 ### All Weeks 
 <a href='./week-0' >Week 0</a>
 
