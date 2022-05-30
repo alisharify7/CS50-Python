@@ -1,3 +1,13 @@
+############################################
+#                                          #
+#             by : Ali Sharify             #
+#        Dont copy currently Code          #
+#          Github: alisharifyy             #
+#                                          #
+############################################
+
+
+
 import random
 
 def main():
