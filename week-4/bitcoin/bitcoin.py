@@ -1,3 +1,14 @@
+############################################
+#                                          #
+#             by : Ali Sharify             #
+#        Dont copy currently Code          #
+#          Github: alisharifyy             #
+#                                          #
+############################################
+
+
+
+
 import requests
 import sys
 
@@ -23,7 +34,7 @@ try:
     price = price * user_input
     print(f"${price:,.4f}")
     sys.exit(0)
-    
+
 except (requests.RequestException,ValueError):
     print("Error")
     sys.exit(1)
