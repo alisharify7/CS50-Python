@@ -6,7 +6,7 @@ How to clone :
      git clone https://github.com/alisharifyy/Cs-Python.git
      
 ### All Weeks 
-<a href='https://github.com/alisharifyy/CS50-Python/tree/main/week' >Week 0</a>
+<a href='https://github.com/alisharifyy/CS50-Python/tree/main/week-0' >Week 0</a>
 
 <a href='https://github.com/alisharifyy/CS50-Python/tree/main/week-1' >Week 1</a>
 
