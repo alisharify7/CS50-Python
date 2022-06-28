@@ -18,3 +18,5 @@ How to clone :
 
 <a href='./week-5' >Week 5</a>
 
+
+<a href='./week-6' >Week 6</a>
