@@ -6,17 +6,16 @@ How to clone :
      git clone https://github.com/alisharifyy/Cs-Python.git
      
 ### All Weeks 
-<a href='./week-0' >Week 0</a>
+<a href='https://github.com/alisharifyy/CS50-Python/tree/main/week' >Week 0</a>
 
-<a href='./week-1' >Week 1</a>
+<a href='https://github.com/alisharifyy/CS50-Python/tree/main/week-1' >Week 1</a>
 
-<a href='./week-2' >Week 2</a>
+<a href='https://github.com/alisharifyy/CS50-Python/tree/main/week-2' >Week 2</a>
 
-<a href='./week-3' >Week 3</a>
+<a href='https://github.com/alisharifyy/CS50-Python/tree/main/week-3' >Week 3</a>
 
-<a href='./week-4' >Week 4</a>
+<a href='https://github.com/alisharifyy/CS50-Python/tree/main/week-4' >Week 4</a>
 
-<a href='./week-5' >Week 5</a>
+<a href='https://github.com/alisharifyy/CS50-Python/tree/main/week-5' >Week 5</a>
 
-
-<a href='./week-6' >Week 6</a>
+<a href='https://github.com/alisharifyy/CS50-Python/tree/main/week6' >Week 6</a>
