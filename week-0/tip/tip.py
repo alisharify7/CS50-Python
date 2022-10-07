@@ -54,5 +54,4 @@ main()
 #     # in here we divid temp to 100 to get us a decimal number like 15 ==> 0.15
 #     return (int(temp) / 100)
 
-
 # main()
