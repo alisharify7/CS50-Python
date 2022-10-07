@@ -44,7 +44,7 @@ main()
 
 
 
-# this is a better version of program using regex library 
+# this is a better version of program using regex  
 """
 
 x = input("")
