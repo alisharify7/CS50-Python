@@ -7,9 +7,10 @@
 ############################################
 
 
-
+"""
+This is simple version
+"""
 import sys
-
 def main():
 
     # get input from user
@@ -30,7 +31,6 @@ def main():
             print(user[i],end="")
     # orint new line
     print()
-
 # defind convertor function of emojies
 def convert(inp):
 
@@ -38,6 +38,36 @@ def convert(inp):
         print("🙂",end="")
     elif (inp == ":("):
         print("🙁",end="")
-
-
 main()
+
+
+
+
+
+# this is a better version of program using regex library 
+"""
+
+x = input("")
+import re
+def better_version(input):
+    # this function using regex for find :) and :(  from text 
+    if not input:
+        return "empty input"
+    
+    # regex for find all :) in str
+    regex_smile_face = ":\)"
+    # replace all str via regex 
+    result = re.sub(regex_smile_face,"🙂",input)
+
+    # regex for find all :( in str
+    regex_sad_face = ":\("
+    # replace all str via regex 
+    result = re.sub(regex_sad_face,"🙁",result)
+    
+    return (result)
+
+
+
+print(better_version(x)) 
+
+"""
