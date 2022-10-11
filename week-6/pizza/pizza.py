@@ -1,4 +1,3 @@
-
 ############################################
 #                                          #
 #             by : Ali Sharify             #
@@ -8,10 +7,10 @@
 ############################################
 
 
-
 import sys
-from tabulate import tabulate
 import csv
+from tabulate import tabulate
+
 
 def main():
     check_command_line()
@@ -29,23 +28,26 @@ def check_command_line():
     if '.csv' not in sys.argv[1]:
         sys.exit("Not a Csv file")
 
-def read_content(file):
+def read_content(fileInput):
+    """
+    This func read all content from a csv file and print menu from it
+    """
     header = []
     body = []
     try:
-        with open(file) as file:
+        with open(fileInput, encoding="utf-8") as file:
             reader = csv.reader(file)
-            for index,value in enumerate(reader):
+            for (index, value) in enumerate(reader):
                 # get first row ==> headers
-                if index == 0: 
+                if (index == 0):
                     # added to header list
                     # and skip this round
                     header.append(value)
                     continue
-    
                 body.append(value)
-        # print table # unpack list  # set table format    
-        print(tabulate(body,*header,tablefmt="grid"))
+
+        # print table # unpack list  # set table format 
+        print(tabulate(body, *header, tablefmt="grid"))
 
     except FileNotFoundError:
         sys.exit("File Not Found")

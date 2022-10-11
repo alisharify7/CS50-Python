@@ -1,4 +1,3 @@
-
 ############################################
 #                                          #
 #             by : Ali Sharify             #
@@ -7,11 +6,13 @@
 #                                          #
 ############################################
 
-
 import sys
 
 
 def main():
+    """
+    From main we call all other function for run
+    """
     # check command line argument
     check_command_line_file()
 
@@ -20,7 +21,9 @@ def main():
     print(line)
 
 def check_command_line_file():
-    """This function check command line argument"""
+    """
+    This function check command line argument
+    """
     if len(sys.argv) > 2:
         print("to Many command-line argument ")
         sys.exit(1)
@@ -34,26 +37,28 @@ def check_command_line_file():
         sys.exit(1)
 
 
-def read_content(file):
+def read_content(FileInput):
+    """
+    This function read all content of file and split comments and codes
+    """
     line_counter = 0
-    
     try:
-        with open(file) as file:
+        with open(FileInput,encoding='utf8') as file:
             file_lines = file.readlines()
     except FileNotFoundError:
         print("File Not Found")
-        sys.exit(1) 
+        sys.exit(1)
 
     # remove all white spaces and comments
-    for c in file_lines:
-        if c.strip().startswith("#"):
+    for line in file_lines:
+        if line.strip().startswith("#"):
             pass
-        elif c.strip() == "":
+        elif line.strip() == "":
             pass
         else:
             line_counter +=1
-    
     return line_counter
+
 
 if __name__ == "__main__":
     main()
