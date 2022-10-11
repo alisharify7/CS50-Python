@@ -19,7 +19,7 @@ def test_names():
 
 def test_numbers():
     assert shorten("123987") == '123987'
-    assert shorten("123456879") == '123'
+    assert shorten("123456879") == '123456879'
 
 
 def test_uppercase():
