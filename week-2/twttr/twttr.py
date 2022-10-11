@@ -13,8 +13,11 @@ print("Output: ",end="")
 
 for let in user:
     if (let.upper() in ['A', 'E', 'I', 'O', 'U']):
+        # skip this round
         continue
-    print(let,end="")
+    else:
+        # print corrent character
+        print(let, end="")
     
 # print new line    
-print("")
+print()

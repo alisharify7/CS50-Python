@@ -11,13 +11,12 @@
 
 # infinity loop
 while True:
-
     try:
         # if x and y cannot ba convert to int then
         # except pass this round
         user = input("Fraaaction: ")
         one,two = user.split("/")
-        one =int(one)
+        one = int(one)
         two = int(two)
         if one > two:
             continue

@@ -9,7 +9,7 @@
 
 
 
-#defind a doctionary for keep all fruits name and calories
+# defind a doctionary for keep all fruits name and calories
 fruits={
     'apple':'130',
     'avocado':'50',
@@ -38,4 +38,5 @@ fruits={
 in_put = input("Item: ").lower()
 if in_put not in fruits:
     exit(0)
-print(f'Calories: {fruits[in_put]}')
+else:
+    print(f'Calories: {fruits[in_put]}')

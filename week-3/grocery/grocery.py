@@ -20,6 +20,7 @@ while True:
         # if in the dic we increment it
         temp_list[user] += 1
 
+    # when user click Ctrl+Z
     except EOFError:
 
         # first iterate in each k,v in dictionary

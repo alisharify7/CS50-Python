@@ -40,7 +40,7 @@ while True:
                     # pass this round
                     continue
                 # if month input is greater than 12   
-                if m > 12 or m < 1:
+                if( m > 12 or m < 1):
                     # pass this round
                     continue
                 if y < 999:

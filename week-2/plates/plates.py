@@ -44,7 +44,7 @@ def is_valid(s):
             # if first number is not 0 so just break
             tempo = s[one:]
             break
-    if temp != " ":
+    if tempo != " ":
         resault = end_str(tempo)
         if resault != True:
             return False
