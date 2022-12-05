@@ -19,3 +19,5 @@ How to clone :
 <a href='https://github.com/alisharifyy/CS50-Python/tree/main/week-5' >Week 5</a>
 
 <a href='https://github.com/alisharifyy/CS50-Python/tree/main/week-6' >Week 6</a>
+
+<a href='https://github.com/alisharifyy/CS50-Python/tree/main/week-7' >Week 7</a>
