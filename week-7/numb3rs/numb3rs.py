@@ -10,21 +10,28 @@ def validate(ip):
     res = re.search(regex, ip)
     if not res:
         return False
-    if len(res.groups()) != 4:
+    
+    # check for find 4 section in ip
+    if len(res.groups()) == 4:
+        
+        for gp in res.groups():
+            # check each section of ip should be number
+            try:
+                gp = int(gp)
+            except ValueError:
+                return None
+            
+            # check each section of ip should between 0-255 ==>  2^8 - 1
+            if gp >= 0 and gp <= 255:
+                pass
+            else:
+                return False
+        return True
+    
+    # section1 . section2 . section3 .section4
+    # if ip is not 4 section
+    else:
         return False
-
-    for gp in res.groups():
-        try:
-            gp = int(gp)
-        except ValueError:
-            return None
-
-        if gp >= 0 and gp <= 255:
-            pass
-        else:
-            return False
-    return True
-
 
 
 if __name__ == "__main__":
