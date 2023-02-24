@@ -1,3 +1,12 @@
+############################################
+#                                          #
+#             by : Ali Sharify             #
+#        Dont copy currently Code          #
+#          Github: alisharify7             #
+#                                          #
+############################################
+
+
 import re
 
 
