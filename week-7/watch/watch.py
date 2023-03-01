@@ -19,7 +19,7 @@ def parse(s):
         this function take an youtube iframe like and return short version of link
     """
 
-    #  - user walrus -  
+    #  - using walrus  -  
     # if src_link := re.search(r"^<iframe(?:.+)? src=\"(?:https?://)?(?:www\.)?youtube.com/embed/(\w+)\".?(?:.+)?></iframe>$", s):
     #     return f"https://youtu.be/{src_link.group(1)}"
     # return None
