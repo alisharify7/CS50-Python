@@ -1,3 +1,8 @@
+<p>
+<img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/alisharify7/CS50-Python">
+<img alt="GitHub contributors" src="https://img.shields.io/github/contributors/alisharify7/CS50-Python">
+</p>
+
 # Cs-Python
 ## Solve All cs Course Question and Problen Sets of Python
 
