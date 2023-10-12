@@ -4,7 +4,7 @@
 </p>
 
 # Cs-Python
-## Solve All cs Course Question and Problen Sets of Python
+## Solve all CS Course Question and Problem Sets of Python
 
 How to clone :
      
@@ -26,3 +26,5 @@ How to clone :
 <a href='https://github.com/alisharifyy/CS50-Python/tree/main/week-6' >Week 6</a>
 
 <a href='https://github.com/alisharifyy/CS50-Python/tree/main/week-7' >Week 7</a>
+
+<a href='https://github.com/alisharifyy/CS50-Python/tree/main/week-8' >Week 8</a>
