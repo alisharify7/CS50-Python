@@ -46,8 +46,7 @@ def is_valid_birth_date(birth_date: str) -> bool:
     """
 
     try:
-        d = date.fromisoformat(birth_date)
-        return [d.year, d.month, d.day]
+        return date.fromisoformat(birth_date)
     except ValueError:
         return False
 
