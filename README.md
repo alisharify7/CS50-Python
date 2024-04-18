@@ -4,7 +4,8 @@
 </p>
 
 # Cs-Python
-## Solve all CS Course Question and Problem Sets of Python
+## Solve all CS Course Questions and Problem Sets of Python
+<a href="https://www.coffeete.ir/alisharify7">Donate/Support [Optional]</a>
 
 How to clone :
      
