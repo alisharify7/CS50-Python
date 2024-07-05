@@ -29,3 +29,8 @@ How to clone :
 <a href='https://github.com/alisharifyy/CS50-Python/tree/main/week-7' >Week 7</a>
 
 <a href='https://github.com/alisharifyy/CS50-Python/tree/main/week-8' >Week 8</a>
+
+
+
+# Certificate:
+<img src="https://github.com/alisharify7/CS50-Python/doc/CS50P.png" alt="CS50 Certificate" >
