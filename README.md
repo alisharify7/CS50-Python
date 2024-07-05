@@ -3,8 +3,8 @@
 <img alt="GitHub contributors" src="https://img.shields.io/github/contributors/alisharify7/CS50-Python">
 </p>
 
-# Cs-Python
-## Solve all CS Course Questions and Problem Sets of Python
+# CS50 Python
+## Solve all CS50 Questions and Problem Sets
 <a href="https://www.coffeete.ir/alisharify7">Donate/Support [Optional]</a>
 
 How to clone :
