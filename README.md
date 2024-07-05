@@ -33,4 +33,4 @@ How to clone :
 
 
 # Certificate:
-<img src="https://github.com/alisharify7/CS50-Python/doc/CS50P.png" alt="CS50 Certificate" >
+<img src="https://github.com/alisharify7/CS50-Python/blob/main/doc/CS50P.png" alt="CS50 Certificate" >
