@@ -34,3 +34,8 @@ How to clone :
 
 # Certificate:
 <img src="https://github.com/alisharify7/CS50-Python/blob/main/doc/CS50P.png" alt="CS50 Certificate" >
+
+
+## Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=alisharify7/CS50-Python&type=Date)](https://star-history.com/#alisharify7/CS50-Python&Date)
